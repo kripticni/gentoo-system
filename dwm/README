@@ -1,0 +1,7 @@
+Additional manually patches:
+-Fixed the barpadding not working from horizontal left side
+-Patched out the dwm-VERSION text at the end of the status bar
+-Patched out the rectangles drawn when there is a window present in a tag
+-Hack to not display tiling layout indicator
+-Patch to center a tag character based on its pixel size on screen (compile-time)
+-Custom colors
