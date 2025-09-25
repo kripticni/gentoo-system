@@ -14,9 +14,8 @@ emerge x11-libs/libXt
 git clone https://github.com/Soft/xcolor
 cd xcolor
 cargo install --path .
-cp ./target/release/xcolor /usr/bin
+cp ./target/release/xcolor /usr/local/bin
 cd ..
-rm -rf xcolor
 
 git clone https://github.com/astrand/xclip
 cd xclip
@@ -26,4 +25,3 @@ make
 make install
 make install.man
 cd ..
-rm -rf xclip
