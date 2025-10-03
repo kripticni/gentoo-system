@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include "nvml.h"
 #include "../util.h"
+#include <stdbool.h>
 
 static nvmlDevice_t device = NULL;
-static int nvml_initialized = 0;
+static bool nvml_initialized = 0;
 
 static int
 nvml_init_once(void)
@@ -51,4 +52,3 @@ gpu_temp(const char* unused)
 
     return bprintf("%d", temp);
 }
-
