@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 emerge app-editors/vim
+emerge app-text/zathura
+emerge app-text/zathura-pdf-poppler
 
 cd "$HOME"/Github/
 git clone https://github.com/neovim/neovim.git
