@@ -4,6 +4,7 @@ emerge x11-base/xorg-server
 emerge x11-apps/xsetroot
 emerge x11-apps/xrandr
 emerge x11-apps/setxkbmap
+emerge x11-apps/xinput
 usermod -aG video,input,tty aleksic
 
 emerge x11-libs/libX11 
